@@ -1,0 +1,27 @@
+<config>
+    <var name="timeout">120</var>
+    <var name="retries">5</var>
+    <array name="servers">
+        <value>server1.example.com</value>
+        <value>server2.example.com</value>
+        <value>server3.example.com</value>
+    </array>
+    <dict name="database">
+        <entry key="host">localhost</entry>
+        <entry key="port">5432</entry>
+        <entry key="username">admin</entry>
+        <entry key="password">secret</entry>
+    </dict>
+    <var name="server_name">main_server</var>
+    <array name="ports">
+        <value>8080</value>
+        <value>443</value>
+    </array>
+    <var name="student_id">12345</var>
+    <dict name="grades">
+        <entry key="math">90</entry>
+        <entry key="physics">85</entry>
+    </dict>
+    <var name="pi">3.1415</var>
+    <var name="e">2.718</var>
+</config>
